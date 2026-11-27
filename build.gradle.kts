@@ -20,3 +20,11 @@ tasks.jar {
         if (it.isDirectory) it else zipTree(it)
     })
 }
+
+dependencies {
+    testImplementation(kotlin("test"))
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
