@@ -19,7 +19,7 @@ class ArcherTest {
     }
 
     @Test
-    fun `archer is Archer`() {
+    fun `archer is named Archer`() {
         assertEquals("Archer", archer.getName())
     }
 

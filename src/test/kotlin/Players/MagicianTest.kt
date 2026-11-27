@@ -20,7 +20,7 @@ class MagicianTest {
     }
 
     @Test
-    fun `magician is Magician`() {
+    fun `magician is named Magician`() {
         assertEquals("Magician", magician.getName())
     }
 
