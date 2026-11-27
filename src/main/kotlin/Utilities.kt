@@ -42,7 +42,7 @@ fun printLeaderBoardEntry(index: Int, player: Player) {
     print("$index          ")
     print(player.getName().padEnd(16))
     print(player.getLevel())
-    if (player.getLevel() < 10) print(" ")
+    if (player.getLevel() < 10u) print(" ")
     print("        ")
     print(player.getForce().toString().padEnd(6))
     print(player.getHealthPoints().toString().padEnd(6))
